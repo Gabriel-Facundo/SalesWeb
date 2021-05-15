@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Services\Exceptions\IntegrityExceptions.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Remove="Views\Sellers\Create.cshtml" />
   </ItemGroup>
 
